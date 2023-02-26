@@ -23,12 +23,12 @@ class Square(Rectangle):
         self.integer_validator("size", size)
         super().__init__(size, size)
         self.__size = size
-    
+
     def __str__(self):
         """Returns a format string of the attribute size"""
 
         return("[Square] {}/{}".format(self.__size, self.__size))
-    
+
     def area(self):
         """Returns the area of the Square instance"""
 
